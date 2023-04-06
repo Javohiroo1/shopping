@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background: blue;
+}
+
+.con {
+  width: 600px;
+  height: 280px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color:gold ;
+}
+.con .input{
+  position: absolute;
+  left: 80px;
+  top: 25px;
+}
+.input button{
+  font-size: 25px;
+}
+.input input{
+  font-size: 25px;
+}
+.input h1{
+  text-align: center;
+}
+.input .reset{
+  position: absolute;
+  left: 320px;
+}
+.input .submit{
+  position: absolute;
+  left: 52px;
+}
+.input *{
+  border: none;
+}
+/* .input {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 30px 0px;
+}
+.input input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.input button {
+  background-color: rgb(15, 201, 15);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 7px 20px;
+  text-transform: uppercase;
+}
+.input button:nth-child(3) {
+  background-color: red;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+} */
+
+/* .royhat {
+  height: 40vh;
+  border-radius: 20px;
+  padding: 20px;
+  overflow-y: scroll;
+}
+.royhat li {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  padding-left: 10px;
+  margin: 5px 0px;
+}
+.royhat li p {
+  font-size: 16px;
+}# sourceMappingURL=style.css.map */
